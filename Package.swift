@@ -25,11 +25,11 @@ import PackageDescription
 let package = Package(
         name: "Starscream2",
         products: [
-            .library(name: "Starscream2", targets: ["Starscream"])
+            .library(name: "Starscream2", targets: ["Starscream2"])
         ],
         dependencies: [],
         targets: [
-            .target(name: "Starscream")
+            .target(name: "Starscream2")
         ]
 )
 
