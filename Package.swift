@@ -23,9 +23,9 @@
 import PackageDescription
 
 let package = Package(
-        name: "Starscream",
+        name: "Starscream2",
         products: [
-            .library(name: "Starscream", targets: ["Starscream"])
+            .library(name: "Starscream2", targets: ["Starscream"])
         ],
         dependencies: [],
         targets: [
